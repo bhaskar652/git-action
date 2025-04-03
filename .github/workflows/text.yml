@@ -1,10 +1,8 @@
 name: Bhaskar
 on: push
 jobs:
-Bhaskar:
-
-runs-on: ubuntu-latest
- steps:
- -name: print hello world
-
- run: echo "hello world"
+  Bhaskar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello world
+        run: echo "hello world"
